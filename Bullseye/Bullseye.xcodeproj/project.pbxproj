@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC2688B926FAF7310048DD8D /* BullseyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2688B826FAF7310048DD8D /* BullseyeApp.swift */; };
-		FC2688BB26FAF7310048DD8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2688BA26FAF7310048DD8D /* ContentView.swift */; };
-		FC2688BD26FAF7320048DD8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2688BC26FAF7320048DD8D /* Assets.xcassets */; };
-		FC2688C026FAF7320048DD8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2688BF26FAF7320048DD8D /* Preview Assets.xcassets */; };
+		FC24422326FB2F1500A0D26E /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC24422226FB2F1500A0D26E /* AboutView.swift */; };
+		FCB307C826D3267500C786EA /* BullseyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB307C726D3267500C786EA /* BullseyeApp.swift */; };
+		FCB307CA26D3267500C786EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB307C926D3267500C786EA /* ContentView.swift */; };
+		FCB307CC26D3267700C786EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB307CB26D3267700C786EA /* Assets.xcassets */; };
+		FCB307CF26D3267700C786EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB307CE26D3267700C786EA /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FC2688B526FAF7310048DD8D /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC2688B826FAF7310048DD8D /* BullseyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeApp.swift; sourceTree = "<group>"; };
-		FC2688BA26FAF7310048DD8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FC2688BC26FAF7320048DD8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FC2688BF26FAF7320048DD8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FC2688C126FAF7320048DD8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC24422226FB2F1500A0D26E /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		FCB307C426D3267500C786EA /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB307C726D3267500C786EA /* BullseyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeApp.swift; sourceTree = "<group>"; };
+		FCB307C926D3267500C786EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FCB307CB26D3267700C786EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCB307CE26D3267700C786EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCB307D026D3267700C786EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FC2688B226FAF7310048DD8D /* Frameworks */ = {
+		FCB307C126D3267500C786EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,38 +35,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FC2688AC26FAF7310048DD8D = {
+		FCB307BB26D3267500C786EA = {
 			isa = PBXGroup;
 			children = (
-				FC2688B726FAF7310048DD8D /* Bullseye */,
-				FC2688B626FAF7310048DD8D /* Products */,
+				FCB307C626D3267500C786EA /* Bullseye */,
+				FCB307C526D3267500C786EA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FC2688B626FAF7310048DD8D /* Products */ = {
+		FCB307C526D3267500C786EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC2688B526FAF7310048DD8D /* Bullseye.app */,
+				FCB307C426D3267500C786EA /* Bullseye.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FC2688B726FAF7310048DD8D /* Bullseye */ = {
+		FCB307C626D3267500C786EA /* Bullseye */ = {
 			isa = PBXGroup;
 			children = (
-				FC2688B826FAF7310048DD8D /* BullseyeApp.swift */,
-				FC2688BA26FAF7310048DD8D /* ContentView.swift */,
-				FC2688BC26FAF7320048DD8D /* Assets.xcassets */,
-				FC2688C126FAF7320048DD8D /* Info.plist */,
-				FC2688BE26FAF7320048DD8D /* Preview Content */,
+				FCB307C726D3267500C786EA /* BullseyeApp.swift */,
+				FCB307C926D3267500C786EA /* ContentView.swift */,
+				FC24422226FB2F1500A0D26E /* AboutView.swift */,
+				FCB307CB26D3267700C786EA /* Assets.xcassets */,
+				FCB307D026D3267700C786EA /* Info.plist */,
+				FCB307CD26D3267700C786EA /* Preview Content */,
 			);
 			path = Bullseye;
 			sourceTree = "<group>";
 		};
-		FC2688BE26FAF7320048DD8D /* Preview Content */ = {
+		FCB307CD26D3267700C786EA /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				FC2688BF26FAF7320048DD8D /* Preview Assets.xcassets */,
+				FCB307CE26D3267700C786EA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -72,13 +75,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FC2688B426FAF7310048DD8D /* Bullseye */ = {
+		FCB307C326D3267500C786EA /* Bullseye */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC2688C426FAF7320048DD8D /* Build configuration list for PBXNativeTarget "Bullseye" */;
+			buildConfigurationList = FCB307D326D3267700C786EA /* Build configuration list for PBXNativeTarget "Bullseye" */;
 			buildPhases = (
-				FC2688B126FAF7310048DD8D /* Sources */,
-				FC2688B226FAF7310048DD8D /* Frameworks */,
-				FC2688B326FAF7310048DD8D /* Resources */,
+				FCB307C026D3267500C786EA /* Sources */,
+				FCB307C126D3267500C786EA /* Frameworks */,
+				FCB307C226D3267500C786EA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -86,24 +89,24 @@
 			);
 			name = Bullseye;
 			productName = Bullseye;
-			productReference = FC2688B526FAF7310048DD8D /* Bullseye.app */;
+			productReference = FCB307C426D3267500C786EA /* Bullseye.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FC2688AD26FAF7310048DD8D /* Project object */ = {
+		FCB307BC26D3267500C786EA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					FC2688B426FAF7310048DD8D = {
+					FCB307C326D3267500C786EA = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
 			};
-			buildConfigurationList = FC2688B026FAF7310048DD8D /* Build configuration list for PBXProject "Bullseye" */;
+			buildConfigurationList = FCB307BF26D3267500C786EA /* Build configuration list for PBXProject "Bullseye" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,42 +114,43 @@
 				en,
 				Base,
 			);
-			mainGroup = FC2688AC26FAF7310048DD8D;
-			productRefGroup = FC2688B626FAF7310048DD8D /* Products */;
+			mainGroup = FCB307BB26D3267500C786EA;
+			productRefGroup = FCB307C526D3267500C786EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FC2688B426FAF7310048DD8D /* Bullseye */,
+				FCB307C326D3267500C786EA /* Bullseye */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FC2688B326FAF7310048DD8D /* Resources */ = {
+		FCB307C226D3267500C786EA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC2688C026FAF7320048DD8D /* Preview Assets.xcassets in Resources */,
-				FC2688BD26FAF7320048DD8D /* Assets.xcassets in Resources */,
+				FCB307CF26D3267700C786EA /* Preview Assets.xcassets in Resources */,
+				FCB307CC26D3267700C786EA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FC2688B126FAF7310048DD8D /* Sources */ = {
+		FCB307C026D3267500C786EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC2688BB26FAF7310048DD8D /* ContentView.swift in Sources */,
-				FC2688B926FAF7310048DD8D /* BullseyeApp.swift in Sources */,
+				FCB307CA26D3267500C786EA /* ContentView.swift in Sources */,
+				FC24422326FB2F1500A0D26E /* AboutView.swift in Sources */,
+				FCB307C826D3267500C786EA /* BullseyeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FC2688C226FAF7320048DD8D /* Debug */ = {
+		FCB307D126D3267700C786EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,7 +211,7 @@
 			};
 			name = Debug;
 		};
-		FC2688C326FAF7320048DD8D /* Release */ = {
+		FCB307D226D3267700C786EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,10 +266,10 @@
 			};
 			name = Release;
 		};
-		FC2688C526FAF7320048DD8D /* Debug */ = {
+		FCB307D426D3267700C786EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Bullseye/Preview Content\"";
@@ -283,10 +287,10 @@
 			};
 			name = Debug;
 		};
-		FC2688C626FAF7320048DD8D /* Release */ = {
+		FCB307D526D3267700C786EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Bullseye/Preview Content\"";
@@ -307,25 +311,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FC2688B026FAF7310048DD8D /* Build configuration list for PBXProject "Bullseye" */ = {
+		FCB307BF26D3267500C786EA /* Build configuration list for PBXProject "Bullseye" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC2688C226FAF7320048DD8D /* Debug */,
-				FC2688C326FAF7320048DD8D /* Release */,
+				FCB307D126D3267700C786EA /* Debug */,
+				FCB307D226D3267700C786EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC2688C426FAF7320048DD8D /* Build configuration list for PBXNativeTarget "Bullseye" */ = {
+		FCB307D326D3267700C786EA /* Build configuration list for PBXNativeTarget "Bullseye" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC2688C526FAF7320048DD8D /* Debug */,
-				FC2688C626FAF7320048DD8D /* Release */,
+				FCB307D426D3267700C786EA /* Debug */,
+				FCB307D526D3267700C786EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FC2688AD26FAF7310048DD8D /* Project object */;
+	rootObject = FCB307BC26D3267500C786EA /* Project object */;
 }
